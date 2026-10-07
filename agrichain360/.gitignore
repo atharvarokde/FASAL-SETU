@@ -1,0 +1,4 @@
+fasalsetu.db
+.secret
+__pycache__/
+.pytest_cache/

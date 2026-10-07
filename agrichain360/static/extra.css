@@ -1,0 +1,13 @@
+:root[data-theme=dark]{--bg:#0d151c;--card:#16212b;--text:#e8f0f6;--muted:#9fb2c2;--accent:#4fd1c5;--soft:#12302f;--border:#263543;--ok:#5fd08a;--warn:#f0b43c;--bad:#ff7070}
+:root[data-theme=light]{--bg:#f4f8fb;--card:#fff;--text:#12212e;--muted:#52667a;--accent:#0b7a75;--soft:#e0f2f1;--border:#d6e2ea;--ok:#2e8b57;--warn:#d98a00;--bad:#c62f2f}
+.bd.PASS{background:var(--ok)}.bd.CAUTION{background:var(--warn)}.bd.FAIL{background:var(--bad)}
+.bar2{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px}#bn{font-size:.75rem;font-weight:700;color:var(--bad)}
+nav select{width:auto;padding:4px 6px;font-size:.8rem;margin-left:4px}.nt{padding:8px 0;border-bottom:1px solid var(--border);font-size:.88rem}.nt.u{font-weight:700}
+/* Tech League intelligence UI */
+.aihero{background:linear-gradient(135deg,var(--soft),var(--card));border:1px solid var(--border);border-radius:18px;padding:18px;margin-bottom:14px}
+.kpi{font-size:1.9rem;font-weight:800;color:var(--accent)}
+.ai-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.ai-risk{font-size:1.4rem;font-weight:800}.critical{border-left:5px solid var(--bad)}.high{border-left:5px solid var(--warn)}
+.progress{height:9px;background:var(--soft);border-radius:10px;overflow:hidden}.progress i{display:block;height:100%;background:var(--accent)}
+.ai-pill{display:inline-block;padding:3px 9px;border-radius:20px;font-size:.75rem;font-weight:800;background:var(--soft);color:var(--accent)}
+.timeline{display:grid;gap:8px}.timeline div{border-left:3px solid var(--accent);padding:8px 12px;background:var(--soft);border-radius:0 10px 10px 0}
